@@ -1,0 +1,2 @@
+run the following line into command line to run server with api key
+($env:VITE_SOME_KEY="ca1ca7882618fea0ee2e7b8f22b25014") -and (npm run dev)

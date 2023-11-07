@@ -1,0 +1,25 @@
+GET http://localhost:3001/api/info
+
+###
+DELETE http://localhost:3001/api/persons/1
+
+###
+GET http://localhost:3001/api/persons/1
+
+###
+POST http://localhost:3001/api/persons/
+content-type: application/json
+
+{
+    "name": "Alvin Wong",
+    "number": "3526640098"
+}
+
+###
+POST http://localhost:3001/api/persons/
+content-type: application/json
+
+{
+    "name": "Arto Hellas",
+    "number": "3526640098"
+} 

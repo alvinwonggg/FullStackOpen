@@ -1,0 +1,20 @@
+POST http://localhost:3001/api/notes HTTP/1.1
+Content-Type: application/json
+
+{
+    "content": "VS code rest client is pretty handy",
+    "important": true
+}
+
+
+###
+POST http://localhost:3001/api/notes/ HTTP/1.1
+
+content-type: application/json
+{ 
+    "content": "sample",
+    "important": true
+}
+
+###
+GET http://localhost:3001/api/notes/1
